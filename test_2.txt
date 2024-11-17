@@ -1,0 +1,19 @@
+Query:
+
+SrcIP: fe80::215:5dff:fe41:fde2
+DstIP: fe80::1
+SrcPort: UDP/53
+DstPort: UDP/53
+Identifier: 0x0
+Flags: QR=0, OPCODE=0, AA=0, TC=0, RD=1, RA=0, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+--------------------------------------------------------------------------------------
+
+--------ZJEDNODUŠENÝ VÝPIS--------
+
+čas 	fe80::215:5dff:fe41:fde2 -> fe80::1 (Q 1/0/0/0)

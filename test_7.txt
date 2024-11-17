@@ -1,0 +1,57 @@
+Query:
+
+SrcIP: 172.25.248.184
+DstIP: 8.8.8.8
+SrcPort: UDP/33126
+DstPort: UDP/53
+Identifier: 0x0
+Flags: QR=0, OPCODE=0, AA=0, TC=0, RD=1, RA=0, AD=0, CD=0, RCODE=0
+
+[Question Section]
+_nos._tcp.nos.avast.com   
+Type: SRV   
+Class: IN
+
+--------------------------------------------------------------------------------------
+
+Response:
+
+SrcIP: 8.8.8.8
+DstIP: 172.25.248.184
+SrcPort: UDP/53
+DstPort: UDP/33126
+Identifier: 0x0
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+_nos._tcp.nos.avast.com   
+Type: SRV   
+Class: IN
+
+[Answer Section]
+_nos._tcp.nos.avast.com   
+Type: SRV   
+Class: IN   
+TTL: 2130   
+Priority: 50   
+Weight: 80   
+Port: 7500   
+nos.ns1.ff.avast.com
+
+_nos._tcp.nos.avast.com   
+Type: SRV   
+Class: IN   
+TTL: 2130   
+Priority: 50   
+Weight: 80   
+Port: 443   
+nos.ns1.ff.avast.com
+
+--------------------------------------------------------------------------------------
+
+--------ZJEDNODUŠENÝ VÝPIS--------
+
+čas 	172.25.248.184 -> 8.8.8.8 (Q 1/0/0/0)
+čas 	8.8.8.8 -> 172.25.248.184 (R 1/2/0/0)
+
+

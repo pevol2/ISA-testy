@@ -1,0 +1,307 @@
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: A   
+Class: IN   
+TTL: 300   
+93.184.216.34
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns1.example.com
+
+[Additional Section]
+ns1.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.1
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: AAAA  
+Class: IN   
+TTL: 300   
+2606:2800:220:1:248:1893:25c8:1946
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns1.example.com
+
+[Additional Section]
+ns1.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.1
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: A   
+Class: IN   
+TTL: 300   
+93.184.216.34
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns2.example.com
+
+[Additional Section]
+ns1.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.1
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: AAAA   
+Class: IN   
+TTL: 300   
+2606:2800:220:1:248:1893:25c8:1946
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns2.example.com
+
+[Additional Section]
+ns1.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.1
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: A   
+Class: IN   
+TTL: 300   
+93.184.216.34
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns1.example.com
+
+[Additional Section]
+ns2.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.2
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: AAAA   
+Class: IN   
+TTL: 300   
+2606:2800:220:1:248:1893:25c8:1946
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns1.example.com
+
+[Additional Section]
+ns2.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.2
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+Timestamp: 2024-10-06 18:46:39
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: A   
+Class: IN   
+TTL: 300   
+93.184.216.34
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns2.example.com
+
+[Additional Section]
+ns2.example.com   
+Type: A  
+Class: IN   
+TTL: 86400   
+192.0.2.2
+
+--------------------------------------------------------------------------------------
+
+Query:
+
+SrcIP: 192.168.1.5
+DstIP: 1.1.1.1
+SrcPort: UDP/53
+DstPort: UDP/54321
+Identifier: 0xC3D4
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+example.com   
+Type: A   
+Class: IN
+
+[Answer Section]
+example.com   
+Type: AAAA  
+Class: IN   
+TTL: 300   
+2606:2800:220:1:248:1893:25c8:1946
+
+[Authority Section]
+example.com   
+Type: NS   
+Class: IN   
+TTL: 172800   
+ns2.example.com
+
+[Additional Section]
+ns2.example.com   
+Type: A   
+Class: IN   
+TTL: 86400   
+192.0.2.2
+
+--------------------------------------------------------------------------------------
+
+--------ZJEDNODUŠENÝ VÝPIS--------
+
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)
+čas 	192.168.1.5 -> 1.1.1.1 (R 1/1/1/1)

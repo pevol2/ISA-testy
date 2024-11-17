@@ -1,0 +1,46 @@
+Query:
+
+SrcIP: 172.25.248.184
+DstIP: 8.8.8.8
+SrcPort: UDP/49721
+DstPort: UDP/53
+Identifier: 0x0
+Flags: QR=0, OPCODE=0, AA=0, TC=0, RD=1, RA=0, AD=0, CD=0, RCODE=0
+
+[Question Section]
+google.com   
+Type: MX   
+Class: IN
+
+--------------------------------------------------------------------------------------
+
+Response:
+
+SrcIP: 8.8.8.8
+DstIP: 172.25.248.184
+SrcPort: UDP/53
+DstPort: UDP/49721
+Identifier: 0x0
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=0
+
+[Question Section]
+google.com   
+Type: MX   
+Class: IN
+
+[Answer Section]
+google.com   
+Type: MX   
+Class: IN   
+TTL: 279   
+Preference: 10   
+smtp.google.com
+
+--------------------------------------------------------------------------------------
+
+--------ZJEDNODUŠENÝ VÝPIS--------
+
+čas 	172.25.248.184 -> 8.8.8.8 (Q 1/0/0/0)
+čas 	8.8.8.8 -> 172.25.248.184 (R 1/1/0/0)
+
+

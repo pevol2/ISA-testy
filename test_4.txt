@@ -1,0 +1,49 @@
+Query:
+
+SrcIP: 172.25.248.184
+DstIP: 8.8.8.8
+SrcPort: UDP/37888
+DstPort: UDP/53
+Identifier: 0x0
+Flags: QR=0, OPCODE=0, AA=0, TC=0, RD=1, RA=0, AD=0, CD=0, RCODE=0
+
+[Question Section]
+_http._tcp.google.com   
+Type: SRV   
+Class: IN
+
+--------------------------------------------------------------------------------------
+
+Response:
+
+SrcIP: 8.8.8.8
+DstIP: 172.25.248.184
+SrcPort: UDP/53
+DstPort: UDP/37888
+Identifier: 0x0
+Flags: QR=1, OPCODE=0, AA=0, TC=0, RD=1, RA=1, AD=0, CD=0, RCODE=3
+
+[Question Section]
+_http._tcp.google.com   
+Type: SRV   
+Class: IN
+
+[Authority Section]
+google.com   
+Type: SOA   
+Class: IN   
+TTL: 60   
+ns1.google.com   
+dns-admin.google.com   
+Serial: 682618118  
+Refresh: 900   
+Retry: 900   
+Expire: 1800  
+Minimum: 60
+
+--------------------------------------------------------------------------------------
+
+--------ZJEDNODUŠENÝ VÝPIS--------
+
+čas 	172.25.248.184 -> 8.8.8.8 (Q 1/0/0/0)
+čas 	8.8.8.8 -> 172.25.248.184 (R 1/0/1/0)
